@@ -1,6 +1,6 @@
 <template>
   <div class="background: #C5E6F9;">
-  <header>
+    <header>
       <a href="" class="text-warning mb-0">
         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
           <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
@@ -28,8 +28,8 @@
       </ul>
 
       <ul>
-        <li class="outer-icon">
-          <a href="https://facebook.com" target="_blank">
+        <li class="outer-box">
+          <a href="https://facebook.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="26" 
@@ -42,8 +42,8 @@
             </svg>
           </a>
         </li>
-        <li class="outer-icon">
-          <a href="https://twitter.com" target="_blank">
+        <li class="outer-box">
+          <a href="https://twitter.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="26" 
@@ -56,8 +56,8 @@
             </svg>
           </a>
         </li>
-        <li class="outer-icon">
-          <a href="https://instagram.com" target="_blank">
+        <li class="outer-box">
+          <a href="https://instagram.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="26" 
@@ -70,8 +70,8 @@
             </svg>
           </a>
         </li>
-        <li class="outer-icon">
-          <a href="https://linkedin.com" target="_blank">
+        <li class="outer-box">
+          <a href="https://linkedin.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
               width="26" 
@@ -122,7 +122,6 @@
 
   .outer-icon {
     background-color: white;
-    padding: 4px;
     border-radius: 60px;
     width: 50px;
     height: 50px;
@@ -130,6 +129,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .outer-box {
+    background-color: #F7FAFC;
+    padding: 4px;
+    border-radius: 60px;
   }
   a:active {
     color: #3182CE;

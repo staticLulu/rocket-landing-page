@@ -28,16 +28,13 @@
   };
 </script>
 
-<style>
+<style scoped>
   html {
     scroll-behavior: smooth;
   }
 
   section {
-    padding: 100px;
     height: 100vh;
-    border: 1px solid #ccc;
-    margin: 10px 0;
   }
 </style>
 
