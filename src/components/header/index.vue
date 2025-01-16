@@ -32,8 +32,8 @@
           <a href="https://facebook.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
-              width="26" 
-              height="26" 
+              width="20" 
+              height="20" 
               fill="currentColor" 
               class="bi bi-facebook text-black" 
               viewBox="0 0 16 16"
@@ -46,8 +46,8 @@
           <a href="https://twitter.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
-              width="26" 
-              height="26" 
+              width="20" 
+              height="20" 
               fill="currentColor" 
               class="bi bi-twitter text-black" 
               viewBox="0 0 16 16"
@@ -60,8 +60,8 @@
           <a href="https://instagram.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
-              width="26" 
-              height="26" 
+              width="20" 
+              height="20" 
               fill="currentColor" 
               class="bi bi-instagram text-black" 
               viewBox="0 0 16 16"
@@ -74,8 +74,8 @@
           <a href="https://linkedin.com" class="outer-icon" target="_blank">
             <svg 
               xmlns="http://www.w3.org/2000/svg" 
-              width="26" 
-              height="26" 
+              width="20" 
+              height="20" 
               fill="currentColor" 
               class="bi bi-linkedin text-black" 
               viewBox="0 0 16 16"
@@ -123,8 +123,8 @@
   .outer-icon {
     background-color: white;
     border-radius: 60px;
-    width: 50px;
-    height: 50px;
+    width: 34px;
+    height: 34px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;

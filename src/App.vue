@@ -6,7 +6,7 @@
     <section id="pricing"><PricingSection /></section>
     <section id="testimonial"><Testimonial /></section>
     <section id="contact"><ContactSection /></section>
-
+  <router-view></router-view>
   <app-footer></app-footer>
 </template>
 
