@@ -111,6 +111,7 @@
   li,a {
     color: #1A202C;
     font-weight: 500;
+    text-decoration: none;
   }
   .menu-list {
     display: grid;
