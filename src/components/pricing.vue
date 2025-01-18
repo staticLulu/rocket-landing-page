@@ -1,123 +1,140 @@
 <template>
-  <div class="container">
-    <h2 :style="'text-align: center; padding-top: 20px;'">Our Pricing</h2>
-    <div class="card-list" :style="'padding-top: 20px'">
-      <!-- first -->
-      <div class="card">
-        <p class="card-header" :style="'color: #81E6D9'">BASIC</p>
-        <div class="border-bottom-card-header" :style="'border-color: #81E6D9'"></div>
-        <div class="card-title">
-          <h1 :style="'display: flex;margin-bottom: 0px;'">199</h1>
-          <p>$</p>
-        </div>
-        <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
-
-        <ul>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Carefully crafted components
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Amazing page examples
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Super friendly support team
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Awesome Support
-          </li>
-        </ul>
-        <div :style="'display: flex;justify-content: center;'">
-          <button :style="'width: fit-content;'">GET STARTED</button>
-        </div>
-        <img src="/bottom-card1.png" height="140px" class="image-bottom-card" />
+  <div class="pricing-section">
+    <div class="container">
+      <h2 :style="'text-align: center; padding-top: 20px;'">Our Pricing</h2>
+      <div :style="'display:flex;justify-content:center;'">
+        <p :style="'text-align: center;width:480px;color:#4A5568;'">
+          Stop wasting time and money designing and managing a website that 
+          doesn't get results. Happiness guaranteed!
+        </p>
       </div>
-      <!-- second -->
-       <div class="card" :style="'position: relative;'">
-        <img src="/baloon.png" height="192px" :style="'position: absolute; right:0px'" />
-        <p class="card-header" :style="'color: #0067F4'">PRO</p>
-        <div class="border-bottom-card-header" :style="'border-color: #0067F4'"></div>
-        <div class="card-title">
-          <h1 :style="'display: flex;margin-bottom: 0px;'">399</h1>
-          <p>$</p>
-        </div>
-        <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
+      <div class="card-list" :style="'padding-top: 30px'">
+        <!-- first -->
+        <div class="card">
+          <p class="card-header" :style="'color: #81E6D9'">BASIC</p>
+          <div class="border-bottom-card-header" :style="'border-color: #81E6D9'"></div>
+          <div class="card-title">
+            <h1 :style="'display: flex;margin-bottom: 0px;'">199</h1>
+            <p>$</p>
+          </div>
+          <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
 
-        <ul>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Carefully crafted components
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Amazing page examples
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Super friendly support team
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Awesome Support
-          </li>
-        </ul>
-        <div :style="'display: flex;justify-content: center;'">
-          <button :style="'width: fit-content;'">GET STARTED</button>
+          <ul>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Carefully crafted components
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Amazing page examples
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Super friendly support team
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Awesome Support
+            </li>
+          </ul>
+          <div class="outer-get-started-btn">
+            <button class="get-started-btn">
+                GET STARTED
+            </button>
+          </div>
+          <img src="/bottom-card1.png" height="140px" class="image-bottom-card" />
         </div>
-        <img src="/bottom-card2.png" height="140px" class="image-bottom-card" />
+        <!-- second -->
+        <div class="card" :style="'position: relative;'">
+          <img src="/balloon.png" height="192px" :style="'position: absolute; right:0px'" />
+          <p class="card-header" :style="'color: #0067F4'">PRO</p>
+          <div class="border-bottom-card-header" :style="'border-color: #0067F4'"></div>
+          <div class="card-title">
+            <h1 :style="'display: flex;margin-bottom: 0px;'">399</h1>
+            <p>$</p>
+          </div>
+          <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
+
+          <ul>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Carefully crafted components
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Amazing page examples
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Super friendly support team
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Awesome Support
+            </li>
+          </ul>
+          <div class="outer-get-started-btn">
+            <button class="get-started-btn">
+                GET STARTED
+            </button>
+          </div>
+          <img src="/bottom-card2.png" height="140px" class="image-bottom-card" />
+        </div>
+        <!-- third -->
+        <div class="card" :style="'position: relative;'">
+          <img src="/flower.png" height="192px" :style="'position: absolute; right:0px'" />
+          <p class="card-header" :style="'color: #4DA422'">ENTERPRISE</p>
+          <div class="border-bottom-card-header" :style="'border-color: #4DA422'"></div>
+          <div class="card-title">
+            <h1 :style="'display: flex;margin-bottom: 0px;'">199</h1>
+            <p>$</p>
+          </div>
+          <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
+
+          <ul>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Carefully crafted components
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+              Amazing page examples
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Super friendly support team
+            </li>
+            <li>
+              <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
+                Awesome Support
+            </li>
+          </ul>
+          <div class="outer-get-started-btn">
+            <button class="get-started-btn">
+                GET STARTED
+            </button>
+          </div>
+          <img 
+            src="/bottom-card3.png" 
+            height="140px" 
+            class="image-bottom-card" 
+          />
+        </div>
       </div>
-      <!-- third -->
-       <div class="card" :style="'position: relative;'">
-        <img src="/flower.png" height="192px" :style="'position: absolute; right:0px'" />
-        <p class="card-header" :style="'color: #4DA422'">ENTERPRISE</p>
-        <div class="border-bottom-card-header" :style="'border-color: #4DA422'"></div>
-        <div class="card-title">
-          <h1 :style="'display: flex;margin-bottom: 0px;'">199</h1>
-          <p>$</p>
-        </div>
-        <p :style="'text-align:center;color: #4A5568;font-weight: 500'">per year</p>
 
-        <ul>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Carefully crafted components
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-            Amazing page examples
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Super friendly support team
-          </li>
-          <li>
-            <img src="/check.png" height="18px" :style="'margin-right: 16px'" />
-              Awesome Support
-          </li>
-        </ul>
-        <div :style="'display: flex;justify-content: center;'">
-          <button :style="'width: fit-content;'">GET STARTED</button>
-        </div>
-        <img 
-          src="/bottom-card3.png" 
-          height="140px" 
-          class="image-bottom-card" 
-        />
-      </div>
-    </div>
-
-    <div class="learn-more-section">
-      <img src="/learn-more.png" width="50%" height="auto" />
-      <div class="learn-more-content">
-        <h2>Curious to Learn More? Stay Tuned</h2>
-        <p class="sub-title">You let us know whenever you want us to update anything or think something can be optimized.</p>
-        <div class="input-container">
-          <img src="/mail.png" width="30px" height="auto" class="mail-icon" />
-          <input type="text" placeholder="helloworld@gmail.com" />
-          <button class="subscribe-btn">SUBSCRIBE</button>
+      <div class="learn-more-section" :style="'margin-bottom:20px'">
+        <img src="/learn-more.png" width="50%" height="auto" />
+        <div class="learn-more-content">
+          <h2>Curious to Learn More? Stay Tuned</h2>
+          <p class="sub-title">
+            You let us know whenever you want us to update 
+            anything or think something can be optimized.
+          </p>
+          <div class="input-container">
+            <img src="/mail.png" width="30px" height="auto" class="mail-icon" />
+            <input type="text" placeholder="helloworld@gmail.com" />
+            <button class="subscribe-btn">SUBSCRIBE</button>
+          </div>
         </div>
       </div>
     </div>
@@ -131,17 +148,19 @@
 </script>
 
 <style scoped>
+  .pricing-section {
+    background-color: #F7FAFC;
+  }
   .container {
     min-height: 100vh;
     box-sizing: border-box;
     padding: 20px;
-    background-color: rgb(247, 168, 207);
   }
   .learn-more-section {
     background-color: #3182CE;
     display: flex;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 60px;
     align-items: center;
     height: 346px !important;
   }
@@ -193,25 +212,38 @@
     transform: translateY(-50%);
     z-index: 1;
   }
+  button {
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+  }
   .subscribe-btn {
     position: absolute;
-    top: 25px;
-    right: 120px;
-  }
-  button {
-    border: 1px solid #3182CE;
     background-color: #3182CE;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 14px;
-    padding-right: 14px;
-    border-radius: 30px;
+    border: 1px solid #3182CE;
+    top: 23px;
+    right: 118px;
+    padding: 6px 14px;
+  }
+  .outer-get-started-btn {
+    display: flex;
+    justify-content: center;
+    margin-top:20px;
+  }
+  .get-started-btn {
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, rgba(0,103,244,1) 0%, rgba(0,103,244,1) 35%, rgba(43,219,220,0.5) 100%);
+    position: absolute
   }
   .card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 34px;
     padding: 0px 120px;
   }
   .card {
@@ -225,7 +257,7 @@
     overflow: hidden; 
   }
   .card:hover {
-    transform: scale(1.10);
+    transform: scale(1.06);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition-duration: 700ms;
     cursor: pointer;
