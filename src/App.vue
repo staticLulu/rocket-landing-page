@@ -35,12 +35,7 @@ export default {
 </script>
 
 <style scoped>
-html {
-  scroll-behavior: smooth;
-}
-
-section {
-  /* height: 100vh; */
-  padding-top: 62px;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 </style>

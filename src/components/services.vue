@@ -11,26 +11,37 @@
         <ul>
           <li>
             <img src="/startup.png" height="44px" />
-            <div class="item">item 1</div>
+            <div class="item">
+              <h5>Startup</h5>
+              <p>Short description for the ones who look for something new.</p>
+            </div>
           </li>
           <li>
-             <img src="/startup.png" height="44px" />
-            <div class="item">item 1</div>
+            <img src="/saas-business.png" height="44px" />
+            <div class="item">
+              <h5>Agency</h5>
+              <p>Short description for the ones who look for something new.</p>
+            </div>
           </li>
         </ul>
 
          <ul>
           <li>
-             <img src="/startup.png" height="44px" />
-            <div class="item">item 1</div>
+            <img src="/agency.png" height="44px" />
+            <div class="item">
+              <h5>Saas Business</h5>
+              <p>Short description for the ones who look for something new.</p>
+            </div>
           </li>
           <li>
-             <img src="/startup.png" height="44px" />
-            <div class="item">item 1</div>
+            <img src="/app-landing.png" height="44px" />
+            <div class="item">
+              <h5>App Landing</h5>
+              <p>Short description for the ones who look for something new.</p>
+            </div>
           </li>
         </ul>
       </div>
-
       <img src="/crafted-for.png" height="280px" />
     </div>
   </div>
@@ -45,19 +56,16 @@
 <style scoped>
   .container {
     box-sizing: border-box;
-    padding: 20px;
-    background-color: rgb(170, 221, 192);
+    padding: 70px 20px 20px 20px;
   }
   .section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 20px;
-    background: rgb(198, 176, 219);
     gap: 20px;
   }
   .content-section {
-    background: rgb(124, 209, 235);
     width: 60%;
     padding: 40px;
   }
@@ -67,6 +75,7 @@
   }
   .sub-title {
     width: 500px;
+    margin-bottom: 30px;
   }
   ul {
     list-style: none;
@@ -76,12 +85,11 @@
     padding-left: 0px;
   }
   li {
-    padding: 20px;
+    padding: 4px;
     display: flex;
     align-items: flex-start;
     /* justify-content: space-between; */
     gap: 16px;
-    background: rgb(240, 182, 141);
   }
   /* .item {
     display: ;

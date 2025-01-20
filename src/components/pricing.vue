@@ -154,7 +154,7 @@
   .container {
     min-height: 100vh;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 100px 20px 20px 20px;
   }
   .learn-more-section {
     background-color: #3182CE;
