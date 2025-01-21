@@ -2,21 +2,21 @@
   <div class="container">
     <div class="section">
       <div class="content-section">
-        <h2>Crafted for</h2>
-        <p class="sub-title">
+        <h2 data-aos="fade-up">Crafted for</h2>
+        <p class="sub-title" data-aos="fade-up" data-aos-delay="100">
           Stop wasting time and money designing and managing a website that 
           doesn't get results. Happiness guaranteed!
         </p>
 
         <ul>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="200">
             <img src="/startup.png" height="44px" />
             <div class="item">
               <h5>Startup</h5>
               <p>Short description for the ones who look for something new.</p>
             </div>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="300">
             <img src="/saas-business.png" height="44px" />
             <div class="item">
               <h5>Agency</h5>
@@ -26,14 +26,14 @@
         </ul>
 
          <ul>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="400">
             <img src="/agency.png" height="44px" />
             <div class="item">
               <h5>Saas Business</h5>
               <p>Short description for the ones who look for something new.</p>
             </div>
           </li>
-          <li>
+          <li data-aos="fade-up" data-aos-delay="500">
             <img src="/app-landing.png" height="44px" />
             <div class="item">
               <h5>App Landing</h5>
@@ -42,7 +42,7 @@
           </li>
         </ul>
       </div>
-      <img src="/crafted-for.png" height="280px" />
+      <img src="/crafted-for.png" height="280px" data-aos="fade-left" />
     </div>
   </div>
 </template>

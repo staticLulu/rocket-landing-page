@@ -1,8 +1,12 @@
 <template>
   <div class="pricing-section">
     <div class="container">
-      <h2 :style="'text-align: center; padding-top: 20px;'">Our Pricing</h2>
-      <div :style="'display:flex;justify-content:center;'">
+      <h2 :style="'text-align: center; padding-top: 20px;'" data-aos="fade-up">Our Pricing</h2>
+      <div 
+        :style="'display:flex;justify-content:center;'" 
+        data-aos="fade-up" 
+        data-aos-delay="100"
+      >
         <p :style="'text-align: center;width:480px;color:#4A5568;'">
           Stop wasting time and money designing and managing a website that 
           doesn't get results. Happiness guaranteed!
@@ -10,7 +14,7 @@
       </div>
       <div class="card-list" :style="'padding-top: 30px'">
         <!-- first -->
-        <div class="card">
+        <div class="card"  data-aos="fade-up" data-aos-delay="200">
           <p class="card-header" :style="'color: #81E6D9'">BASIC</p>
           <div class="border-bottom-card-header" :style="'border-color: #81E6D9'"></div>
           <div class="card-title">
@@ -45,7 +49,12 @@
           <img src="/bottom-card1.png" height="140px" class="image-bottom-card" />
         </div>
         <!-- second -->
-        <div class="card" :style="'position: relative;'">
+        <div 
+          class="card" 
+          :style="'position: relative;'" 
+          data-aos="fade-up" 
+          data-aos-delay="300"
+        >
           <img src="/balloon.png" height="192px" :style="'position: absolute; right:0px'" />
           <p class="card-header" :style="'color: #0067F4'">PRO</p>
           <div class="border-bottom-card-header" :style="'border-color: #0067F4'"></div>
@@ -81,7 +90,12 @@
           <img src="/bottom-card2.png" height="140px" class="image-bottom-card" />
         </div>
         <!-- third -->
-        <div class="card" :style="'position: relative;'">
+        <div 
+          class="card" 
+          :style="'position: relative;'" 
+          data-aos="fade-up" 
+          data-aos-delay="400"
+        >
           <img src="/flower.png" height="192px" :style="'position: absolute; right:0px'" />
           <p class="card-header" :style="'color: #4DA422'">ENTERPRISE</p>
           <div class="border-bottom-card-header" :style="'border-color: #4DA422'"></div>
@@ -125,12 +139,12 @@
       <div class="learn-more-section" :style="'margin-bottom:20px'">
         <img src="/learn-more.png" width="50%" height="auto" />
         <div class="learn-more-content">
-          <h2>Curious to Learn More? Stay Tuned</h2>
-          <p class="sub-title">
+          <h2 data-aos="fade-up" data-aos-delay="100">Curious to Learn More? Stay Tuned</h2>
+          <p class="sub-title" data-aos="fade-up" data-aos-delay="200">
             You let us know whenever you want us to update 
             anything or think something can be optimized.
           </p>
-          <div class="input-container">
+          <div class="input-container"  data-aos="fade-up" data-aos-delay="300">
             <img src="/mail.png" width="30px" height="auto" class="mail-icon" />
             <input type="text" placeholder="helloworld@gmail.com" />
             <button class="subscribe-btn">SUBSCRIBE</button>

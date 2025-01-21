@@ -1,8 +1,15 @@
 <template>
   <app-header></app-header>
 
-  <!-- Render sections only on the root path ("/") -->
   <div v-if="$route.path === '/'">
+    <nav>
+      <a v-scroll-to="'#home'">Home</a>
+      <a v-scroll-to="'#services'">Services</a>
+      <a v-scroll-to="'#pricing'">Pricing</a>
+      <a v-scroll-to="'#testimonial'">Testimonial</a>
+      <a v-scroll-to="'#contact'">Contact</a>
+    </nav>
+
     <section id="home"><HeroSection /></section>
     <section id="services"><ServicesSection /></section>
     <section id="pricing"><PricingSection /></section>
@@ -10,7 +17,6 @@
     <section id="contact"><ContactSection /></section>
   </div>
 
-  <!-- Render the router-view for other paths -->
   <router-view v-else></router-view>
 
   <app-footer></app-footer>
@@ -33,9 +39,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-  html {
-    scroll-behavior: smooth;
-  }
-</style>
