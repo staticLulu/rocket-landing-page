@@ -18,9 +18,13 @@
           <img src="/play.png" height="30px" alt="Play">
         </button>
       </div>
+
+      <div class="hero-image" data-aos="fade-up" data-aos-delay="200">
+        <img src="/hero.png" height="340px">
+      </div>
     </div>
 
-     <!-- Modal for YouTube Video -->
+    <!-- Modal for YouTube Video -->
     <div v-if="isVideoModalVisible" class="video-modal">
       <div class="video-modal-content">
         <button class="close-button" @click="closeVideo">x</button>
@@ -74,7 +78,7 @@
 <style scoped>
   .container {
     box-sizing: border-box;
-    padding: 100px 20px 20px 20px;
+    padding: 50px 20px 20px 20px;
   }
   h2 {
     max-width: 500px;
@@ -83,7 +87,7 @@
     padding-bottom: 30px;
     font-weight: 700;
   }
-   .sub-title {
+  .sub-title {
     font-size: 18px;
     font-weight: 500;
     width: 500px;
@@ -106,47 +110,75 @@
   }
   .get-in-touch-button:hover {
   background-image: linear-gradient(90deg, rgba(0, 123, 255, 1) 0%, rgba(0, 123, 255, 1) 35%, rgba(65, 239, 242, 0.7) 100%);
-}
+  }
   .watch-video-button {
     color: #3182CE;
     background-color: white;
   }
 
-/* Modal styles */
-.video-modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-.video-modal-content {
-  position: relative;
-  background-color: none;
-  padding: 0;
-  border-radius: 8px;
-  overflow: hidden;
-}
-iframe {
-  display: block;
-  border: none;
-  border-radius: 8px;
-  padding: 40px;
-}
-.close-button {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  border: none;
-  font-size: 24px;
-  color: whitesmoke;
-  cursor: pointer;
-  background: transparent;
-}
+  /* Modal styles */
+  .video-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  .video-modal-content {
+    position: relative;
+    background-color: none;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  iframe {
+    display: block;
+    border: none;
+    border-radius: 8px;
+    padding: 40px;
+  }
+  .close-button {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border: none;
+    font-size: 24px;
+    color: whitesmoke;
+    cursor: pointer;
+    background: transparent;
+  }
+  .hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    animation: customAnimation 3s infinite;
+    animation-delay: 1s; /* Delay for AOS duration */
+    opacity: 0; /* Start invisible for AOS to handle */
+  }
+
+  .hero-image[data-aos][data-aos-complete] {
+    opacity: 1; /* Ensure visibility after AOS animation completes */
+  }
+
+  @keyframes customAnimation {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-20px);
+      opacity: 0.8;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 
 </style>

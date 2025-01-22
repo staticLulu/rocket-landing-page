@@ -133,14 +133,14 @@
       </div>
 
       <div class="learn-more-section" :style="'margin-bottom:20px'">
-        <img src="/learn-more.png" width="50%" height="auto" />
+        <img src="/learn-more.png" width="50%" height="300px" />
         <div class="learn-more-content">
           <h2 data-aos="fade-up" data-aos-delay="100">Curious to Learn More? Stay Tuned</h2>
           <p class="sub-title" data-aos="fade-up" data-aos-delay="200">
             You let us know whenever you want us to update 
             anything or think something can be optimized.
           </p>
-          <div class="input-container"  data-aos="fade-up" data-aos-delay="300">
+          <div class="input-container" data-aos="fade-up" data-aos-delay="300">
             <img src="/mail.png" width="30px" height="auto" class="mail-icon" />
             <input type="text" placeholder="helloworld@gmail.com" />
             <button class="subscribe-btn">SUBSCRIBE</button>
@@ -172,7 +172,7 @@
     align-items: center;
     margin-top: 60px;
     align-items: center;
-    height: 346px !important;
+    /* height: 346px !important; */
   }
   .learn-more-content {
     padding: 20px;
@@ -213,6 +213,34 @@
     left: 60px;
   }
   .input-container {
+  position: relative;
+}
+
+.mail-icon {
+  position: absolute;
+  top: 60%;
+  left: 80px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+button {
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.subscribe-btn {
+  position: absolute;
+  background-color: #3182CE;
+  border: 1px solid #3182CE;
+  top: 23px;
+  right: 68px;
+  padding: 6px 14px;
+}
+  /* .input-container {
     position: relative;
   }
   .mail-icon {
@@ -236,7 +264,7 @@
     top: 23px;
     right: 118px;
     padding: 6px 14px;
-  }
+  } */
   .outer-get-started-btn {
     display: flex;
     justify-content: center;
@@ -244,8 +272,8 @@
   }
   .get-started-btn {
     border: none;
-    padding: 12px 24px;
-    font-size: 18px;
+    padding: 8px 20px;
+    font-size: 16px;
     font-weight: 600;
     background-image: linear-gradient(90deg, rgba(0,103,244,1) 0%, rgba(0,103,244,1) 35%, rgba(43,219,220,0.5) 100%);
     position: absolute
@@ -253,7 +281,7 @@
   .card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 34px;
+    gap: 20px;
     padding: 0px 120px;
   }
   .card {
@@ -267,7 +295,7 @@
     overflow: hidden; 
   }
   .card:hover {
-    transform: scale(1.06);
+    transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transition-duration: 700ms;
     cursor: pointer;
@@ -298,6 +326,7 @@
     display: grid;
     gap: 10px;
     justify-content: center;
+    padding-right: 8px;
   }
   li {
     display: flex;
@@ -309,4 +338,5 @@
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
   }
+  
 </style>

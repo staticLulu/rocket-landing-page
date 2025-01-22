@@ -1,6 +1,6 @@
 <template>
   <div class="footer-section">
-    <footer>
+    <div class="container">
       <div class="logo">
         <img src="/rocket-footer.png" height="34px" />
         ROCKET LANDING PAGE
@@ -56,7 +56,7 @@
           </li>
         </ul>
       </div>
-    </footer>
+    </div>
   </div>
   <p class="footer-bottom">
     made with ❤️ by dangmakara (@staticLulu)
