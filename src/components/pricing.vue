@@ -12,9 +12,14 @@
           doesn't get results. Happiness guaranteed!
         </p>
       </div>
-      <div class="card-list" :style="'padding-top: 30px'">
+      <div 
+        class="card-list" 
+        :style="'padding-top: 30px'" 
+        data-aos="fade-up" 
+        data-aos-delay="200"
+      >
         <!-- first -->
-        <div class="card"  data-aos="fade-up" data-aos-delay="200">
+        <div class="card">
           <p class="card-header" :style="'color: #81E6D9'">BASIC</p>
           <div class="border-bottom-card-header" :style="'border-color: #81E6D9'"></div>
           <div class="card-title">
@@ -50,11 +55,7 @@
         </div>
         <!-- second -->
         <div 
-          class="card" 
-          :style="'position: relative;'" 
-          data-aos="fade-up" 
-          data-aos-delay="300"
-        >
+          class="card" :style="'position: relative;'">
           <img src="/balloon.png" height="192px" :style="'position: absolute; right:0px'" />
           <p class="card-header" :style="'color: #0067F4'">PRO</p>
           <div class="border-bottom-card-header" :style="'border-color: #0067F4'"></div>
@@ -90,12 +91,7 @@
           <img src="/bottom-card2.png" height="140px" class="image-bottom-card" />
         </div>
         <!-- third -->
-        <div 
-          class="card" 
-          :style="'position: relative;'" 
-          data-aos="fade-up" 
-          data-aos-delay="400"
-        >
+        <div class="card" :style="'position: relative;'">
           <img src="/flower.png" height="192px" :style="'position: absolute; right:0px'" />
           <p class="card-header" :style="'color: #4DA422'">ENTERPRISE</p>
           <div class="border-bottom-card-header" :style="'border-color: #4DA422'"></div>
@@ -198,7 +194,7 @@
     margin: 0 auto;
   }
   input {
-    padding: 14px 20px 14px 60px; /* Add consistent padding for input */
+    padding: 14px 20px 14px 60px;
     width: 380px;
     margin: 0 auto;
     margin-top: 16px;
@@ -207,14 +203,14 @@
     position: relative;
   }
   input:focus {
-    outline: none; /* Ensure no additional styles affect focus */
+    outline: none;
   }
   input::placeholder {
     font-size: 14px;
     font-weight: 500; 
-    color: #aaa; /* Adjust placeholder color for visibility */
-    position: absolute; /* Prevent placeholder from moving */
-    left: 60px; /* Align placeholder with input padding */
+    color: #aaa; 
+    position: absolute; 
+    left: 60px;
   }
   .input-container {
     position: relative;

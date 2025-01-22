@@ -39,22 +39,21 @@
 </template>
 
 <script>
-  import { onMounted } from "vue";
   import AOS from "aos";
 
   export default {
-    name: 'HeroSection',
+    name: "HeroSection",
     data() {
       return {
         isVideoModalVisible: false,
-        youtubeEmbedUrl: 'https://www.youtube.com/embed/M1amrI0b5S0?autoplay=1&mute=1',
+        youtubeEmbedUrl: "https://www.youtube.com/embed/M1amrI0b5S0?autoplay=1&mute=1",
       };
     },
     methods: {
       scrollToContact() {
-        const contactSection = document.querySelector('#contact');
+        const contactSection = document.querySelector("#contact");
         if (contactSection) {
-          contactSection.scrollIntoView({ behavior: 'smooth' });
+          contactSection.scrollIntoView({ behavior: "smooth" });
         }
       },
       showVideo() {
@@ -64,13 +63,12 @@
         this.isVideoModalVisible = false;
       },
     },
+    mounted() {
+      AOS.init({
+        duration: 800,
+      });
+    },
   };
-
-  onMounted(() => {
-    AOS.init({
-      duration: 800,
-    });
-  })
 </script>
 
 <style scoped>
