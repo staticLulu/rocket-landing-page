@@ -141,9 +141,9 @@
             anything or think something can be optimized.
           </p>
           <div class="input-container" data-aos="fade-up" data-aos-delay="300">
-            <img src="/mail.png" width="30px" height="auto" class="mail-icon" />
+            <!-- <img src="/mail.png" width="30px" height="auto" class="mail-icon" /> -->
             <input type="text" placeholder="helloworld@gmail.com" />
-            <button class="subscribe-btn">SUBSCRIBE</button>
+            <!-- <button class="subscribe-btn">SUBSCRIBE</button> -->
           </div>
         </div>
       </div>
